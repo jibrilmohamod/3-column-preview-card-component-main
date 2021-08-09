@@ -1,0 +1,138 @@
+    @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        max-width: 1440px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+    }
+    
+    main {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        border: 1px solid #ccc;
+    }
+    
+    article {
+        /* border: 1px solid rgb(116, 37, 37); */
+        /* height: ; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-between;
+        height: 70%;
+        width: 250px;
+    }
+    
+    svg {
+        position: relative;
+        margin-top: auto;
+        margin-left: 20px;
+    }
+    
+    h1 {
+        font-family: 'Big Shoulders Display', cursive;
+        color: hsl(0, 0%, 95%);
+        margin: 0;
+        padding: 20px;
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+    
+    p {
+        color: hsla(0, 0%, 100%, 0.75);
+        padding: 20px;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        /* position: relative;
+    top: -30px; */
+    }
+    
+    .sedan {
+        background-color: hsl(31, 77%, 52%);
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+    
+    .suv {
+        background-color: hsl(184, 100%, 22%);
+        font-size: 14px;
+    }
+    
+    .lux {
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    
+    article a {
+        width: 50%;
+        padding: 10px;
+        /* align-self: center; */
+        font-size: 16px;
+        background-color: hsl(0, 0%, 95%);
+        text-decoration: none;
+        text-align: center;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        cursor: pointer;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+    
+    #sed {
+        color: hsl(31, 77%, 52%);
+        margin-left: 20px;
+    }
+    
+    #suv {
+        color: hsl(184, 100%, 22%);
+        margin-left: 20px;
+    }
+    
+    #lux {
+        color: hsl(179, 100%, 13%);
+        margin-left: 20px;
+    }
+    
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+    
+    @media screen and (max-width: 375px) {
+        main {
+            /* margin-top: 100px; */
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            height: unset;
+        }
+        article {
+            /* flex-shrink: 2; */
+        }
+        .sedan {
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        .lux {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+    }
