@@ -5,12 +5,20 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ## Table of contents
 
 - [Overview](#overview)
+this is my solution for the three column preview card component challenge.Im Jibril Mohamod from Kenya.
   - [The challenge](#the-challenge)
+  The challenge was to build a 3-column preview card component. The component should have a title, a description, and a preview image. The component should be responsive and work well on mobile devices.
   - [Screenshot](#screenshot)
+  the images below show the component in action.
+
   - [Links](#links)
+  
 - [My process](#my-process)
   - [Built with](#built-with)
+  this was built with the following tools:
+  CSS flexbox, HTML5.
   - [What I learned](#what-i-learned)
+  Learned center alignment, responsive design, and flexbox.
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
